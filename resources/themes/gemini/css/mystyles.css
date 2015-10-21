@@ -1,0 +1,80 @@
+button.grid-delete, button.grid-update {
+	margin: 3px;
+	cursor: pointer;
+	border: 0px;
+	position: relative;
+	float: left;
+}
+
+.block .block-head h2 {
+	position: relative;
+	float: left;
+}
+
+.block .block-head button {
+	position: relative;
+	float: right;
+}
+
+.btn a {color: #ffffff;}
+
+.display-none {display:none;}
+
+#rule-table {padding:0px !important; border:0px !important; spacing: 0p !important;}
+#rule_table tr {height: 10px !important; line-height: 10px important;}
+#rule_table td {height: 10px !important; line-height: 10px important;}
+td.tree-node { padding:0px; border:0px; vertical-align:top; border-right:1px solid #ccc }
+td.tree-node a { text-decoration:none }
+td.tree-node .button { float:left; width:9px; height:9px; overflow:hidden; margin:6px 4px 0px 2px; }
+td.tree-node .button.expand { background:url(../../../img/admin/tree-collapse.gif) no-repeat center top; cursor:pointer }
+td.tree-node .indent { float:left; width:14px; height:18px; overflow:hidden; margin:0px }
+td.tree-node .indent.dotted { background:url(../../../img/admin/tree-dots.gif) repeat-y 6px }
+td.tree-node .indent.shortdot { background:url(../../../img/admin/tree-shortdots.gif) no-repeat 6px top }
+td.tree-node .indent .node { margin-left:6px; background:url(../../../img/admin/tree-dots.gif) repeat-x left 10px }
+td.tree-node .caption { float:left; padding:0px; overflow:hidden; padding-top:4px; padding-right:5px }
+tr.collapsed td.tree-node .button.expand { background:url(../../../img/admin/tree-expand.gif) no-repeat center top }
+
+td.tree-node .button.delete { background:url(../../../img/admin/tree-node-del.gif) no-repeat center top; cursor:pointer }
+td.tree-node .button.deldis { background:url(../../../img/admin/tree-node-del-dis.gif) no-repeat center top }
+td.tree-node .button.update { background:url(../../../img/admin/tree-node-edit.gif) no-repeat center top; cursor:pointer }
+td.tree-node .button.insert { background:url(../../../img/admin/tree-node-new.gif) no-repeat center top; cursor:pointer }
+td.tree-node .button.moveup { background:url(../../../img/admin/tree-up.gif) no-repeat center top; cursor:pointer }
+td.tree-node .button.movedw { background:url(../../../img/admin/tree-down.gif) no-repeat center top; cursor:pointer }
+td.tree-node .button.mupdis {  }
+td.tree-node .button.mdwdis {  }
+
+.btn.disabled {background-color: #cfcfcf;}
+
+#redactor {
+	min-height: 300px;
+}
+
+.fa-facebook, 
+.fa-twitter,
+.fa-google-plus { width: 20px; text-align: left;}
+
+#perfil-edicion {
+	display: none;
+	min-height: 600px;
+}
+
+
+.fa-profile:before {
+	content: "\f03e"
+}
+
+
+.fa-blog:before {
+	content: "\f15b"
+}
+
+.glyph-red {
+	color: #ff0000;
+}
+
+.glyph-green {
+	color: #177e1c;
+}
+
+table.dataTable th {padding: 2px 0px 2px 2px !important;}
+table.dataTable td {padding: 2px 0px 2px 2px !important;}
